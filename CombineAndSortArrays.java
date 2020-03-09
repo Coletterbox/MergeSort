@@ -6,14 +6,14 @@ import java.util.List;
 
 public class CombineAndSortArrays {
 
-    public int[] CombineAndSortArrays(int[] inputArray1, int[] inputArray2) {
-        int[] combinedArray = new int[inputArray1.length + inputArray2.length];
-        System.arraycopy(inputArray1, 0, combinedArray, 0, inputArray1.length);
-        System.arraycopy(inputArray2, 0, combinedArray, inputArray1.length, inputArray2.length);
-        //System.out.println(Arrays.toString(combinedArray));
-        Arrays.sort(combinedArray);
-        return combinedArray;
-    }
+//     public int[] CombineAndSortArrays(int[] inputArray1, int[] inputArray2) {
+//         int[] combinedArray = new int[inputArray1.length + inputArray2.length];
+//         System.arraycopy(inputArray1, 0, combinedArray, 0, inputArray1.length);
+//         System.arraycopy(inputArray2, 0, combinedArray, inputArray1.length, inputArray2.length);
+//         //System.out.println(Arrays.toString(combinedArray));
+//         Arrays.sort(combinedArray);
+//         return combinedArray;
+//     }
 
     public int[] CombineSortedArrays(int[] inputArray1, int[] inputArray2) {
 //        checking arrays are sorted - half-finished
